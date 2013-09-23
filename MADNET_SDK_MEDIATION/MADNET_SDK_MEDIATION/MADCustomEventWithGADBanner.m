@@ -105,7 +105,7 @@ MADSize MADNETSizeFromGADAdSize (GADAdSize adSize)
 {
     // В этом месте следует настроить идентификатор рекламного места
     m_madnetview = [[MADRotationView alloc] initWithAdSize: mAdSizeFromCGSize(adSize.size)
-                                                   spaceId: @"SPACE_ID"
+                                                   spaceId: @"SPACE_ID" // replace
                                                  partnerId: nil];
     m_madnetview.delegate = self;
     [m_madnetview loadWithBase: [self madnetBaseValuesFromRequest: request]
