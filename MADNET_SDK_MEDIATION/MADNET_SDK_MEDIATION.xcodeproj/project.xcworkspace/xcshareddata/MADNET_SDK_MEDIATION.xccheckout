@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5EACD56D-AB4C-40A4-9917-E653B0B12914</string>
+	<string>BBFAA369-B035-443D-AC66-B30097BBF548</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MADNET_SDK_MEDIATION</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>439258F4-AA2D-4954-9184-E5A8EAB22E3B</key>
-		<string>ssh://git.tinkoffdigital.ru/madnet.ios.samples</string>
+		<key>249E0E27-4650-410D-9075-CFEA18500E79</key>
+		<string>https://github.com/MADNET-SDK/iOS-MADNET-AdMob-Mediation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MADNET_SDK_MEDIATION/MADNET_SDK_MEDIATION.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>439258F4-AA2D-4954-9184-E5A8EAB22E3B</key>
+		<key>249E0E27-4650-410D-9075-CFEA18500E79</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://git.tinkoffdigital.ru/madnet.ios.samples</string>
+	<string>https://github.com/MADNET-SDK/iOS-MADNET-AdMob-Mediation.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>439258F4-AA2D-4954-9184-E5A8EAB22E3B</string>
+	<string>249E0E27-4650-410D-9075-CFEA18500E79</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>439258F4-AA2D-4954-9184-E5A8EAB22E3B</string>
+			<string>249E0E27-4650-410D-9075-CFEA18500E79</string>
 			<key>IDESourceControlWCCName</key>
-			<string>madnet</string>
+			<string>iOS-MADNET-AdMob-Mediation</string>
 		</dict>
 	</array>
 </dict>
