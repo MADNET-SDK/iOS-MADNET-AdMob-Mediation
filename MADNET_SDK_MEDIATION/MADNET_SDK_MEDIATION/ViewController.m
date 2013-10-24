@@ -27,6 +27,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     _banner = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin: CGPointMake(0.0f, 50.0f)];
+#warning // !Replace @"AdMob Unit ID" with your ADMOB ad-placemenet id!
     _banner.adUnitID = @"AdMob Unit ID";
     _banner.rootViewController = self;
     
