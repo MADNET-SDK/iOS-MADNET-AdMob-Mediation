@@ -26,17 +26,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    _banner = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin: CGPointMake(0.0f, 50.0f)];
-#warning // !Replace @"AdMob Unit ID" with your ADMOB ad-placemenet id!
-    _banner.adUnitID = @"AdMob Unit ID";
+    _banner = [[GADBannerView alloc] initWithAdSize: kGADAdSizeBanner
+                                             origin: CGPointMake((self.view.bounds.size.width - kGADAdSizeBanner.size.width)/2.0f, 50.0f)];
+    #warning // !Replace @"AdMob_ID" with your AdMob ad-placemenet id!
+    _banner.adUnitID = @"ca-app-pub-8222858898201564/9113166534";
     _banner.rootViewController = self;
-    
+    _banner.delegate = self;
+    _banner.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+
     [self.view addSubview: _banner];
     
     GADRequest * request = [GADRequest request];
-    request.gender = kGADGenderMale;
+    /*request.gender = kGADGenderMale;
     request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID, nil];
-    
+    */
     [_banner loadRequest: request];
 
 }
